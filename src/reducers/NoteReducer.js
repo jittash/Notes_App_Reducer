@@ -1,5 +1,3 @@
-import { title, description, toeditid } from "../App";
-
 export const reducer = (state, action) => {
   switch (action.type) {
     case "ADD_NOTE":
